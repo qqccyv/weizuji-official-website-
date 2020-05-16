@@ -1,0 +1,37 @@
+// 居中样式
+.middle {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+// 字体样式
+@font-face {
+  font-family: 'iconfont';
+  src: url('../font/iconfont.eot');
+  src: url('iconfont.eot?#iefix') format('embedded-opentype'),
+      url('../font/iconfont.woff2') format('woff2'),
+      url('../font/iconfont.woff') format('woff'),
+      url('../font/iconfont.ttf') format('truetype'),
+      url('../font/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*清除浮动*/
+.clearfix:after {
+  visibility: hidden;
+  clear: both;
+  display: block;
+  content: ".";
+  height: 0
+}
+
+.clearfix {
+  *zoom: 1
+}

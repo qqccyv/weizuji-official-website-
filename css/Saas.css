@@ -1,0 +1,560 @@
+body {
+  min-width: 1200px;
+  background-image: url(../images/Saas-top.jpg), url(../images/Saas-second.png), url(../images/Saas-middle.jpg), url(../images/Saas-fourth.png), url(../images/Saas-bottom.jpg);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: 0 0,0 919px,0 1328px,0 3858px,0 4493px;
+  background-size: 100% 919px,100% 409px,100% 2530px,100% 635px,100% 355px;
+}
+.header {
+  height: 87px;
+  line-height: 87px;
+  display: flex;
+  flex-wrap: nowrap;
+  color: #fff;
+}
+.header .logo {
+  height: 87px;
+}
+.header .logo h1 {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: normal;
+  color: #fff;
+}
+.header .logo img {
+  height: 49px;
+  margin-top: -16px;
+  vertical-align: middle;
+}
+.header .nav-header {
+  margin-left: 223px;
+}
+.header .nav-header ul li {
+  float: left;
+  margin-left: 55px;
+  line-height: 88px;
+}
+.header .nav-header ul li:first-child {
+  margin-left: 0;
+}
+.header .nav-header ul a {
+  padding: 5px 0;
+  height: 30px;
+  color: #fff;
+}
+.header .nav-header ul a:hover {
+  color: orange;
+}
+.header p {
+  margin-left: 120px;
+}
+.banner {
+  width: 100%;
+  height: 760px;
+}
+.banner .banner-main {
+  height: 100%;
+}
+.banner .banner-main .banner-info {
+  float: left;
+  color: #fff;
+}
+.banner .banner-main .banner-info h2 {
+  margin-top: 200px;
+  width: 360px;
+  height: 56px;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 56px;
+  color: #ffffff;
+  opacity: 1;
+}
+.banner .banner-main .banner-info .hr {
+  margin: 12px 0 18px;
+  width: 36px;
+  height: 3px;
+  background: #ebc800;
+  opacity: 1;
+  border-radius: 2px;
+}
+.banner .banner-main .banner-info p {
+  width: 224px;
+  height: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #ffffff;
+  opacity: 1;
+}
+.banner .banner-main .banner-info .btn {
+  display: flex;
+  margin-top: 54px;
+}
+.banner .banner-main .banner-info .btn .detail,
+.banner .banner-main .banner-info .btn .tryout {
+  margin: 0 4px;
+  width: 140px;
+  height: 51px;
+  border: 2px solid #f5d72e;
+  opacity: 1;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 51px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  cursor: pointer;
+}
+.banner .banner-main .banner-info .btn .detail:hover,
+.banner .banner-main .banner-info .btn .tryout:hover {
+  background: #ffcf4b;
+}
+.banner .banner-main .banner-img {
+  float: right;
+  margin-top: 50px;
+  width: 514px;
+  height: 452px;
+  background: url(../images/Saas1.png) no-repeat;
+}
+.advantage {
+  width: 100%;
+  height: 400px;
+}
+.advantage .advantage-main {
+  height: 100%;
+  box-sizing: border-box;
+  padding-top: 30px;
+}
+.advantage .advantage-main .advantage-title {
+  width: 100%;
+  text-align: center;
+}
+.advantage .advantage-main .advantage-title h3 {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+.advantage .advantage-main .advantage-title span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #666666;
+  letter-spacing: 2px;
+}
+.advantage .advantage-main .advantage-content {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.advantage .advantage-main .advantage-content .advantage-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.advantage .advantage-main .advantage-content .advantage-item img {
+  width: 96px;
+  height: 96px;
+}
+.advantage .advantage-main .advantage-content .advantage-item p {
+  margin: 22px 0 10px;
+  height: 20px;
+  font-size: 16px;
+  text-align: center;
+  font-family: Gujarati Sangam MN;
+  font-weight: 400;
+  line-height: 21px;
+  color: #707070;
+  letter-spacing: 2px;
+}
+.advantage .advantage-main .advantage-content .advantage-item h4 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #333333;
+}
+.services {
+  width: 100%;
+  height: 650px;
+}
+.services .services-main {
+  height: 100%;
+  box-sizing: border-box;
+  padding-top: 30px;
+}
+.services .services-main .services-title {
+  width: 100%;
+  text-align: center;
+}
+.services .services-main .services-title h3 {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+.services .services-main .services-title span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #666666;
+  letter-spacing: 2px;
+}
+.services .services-main .services-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 78px;
+  padding: 0 30px;
+}
+.services .services-main .services-content .services-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 66px 63px;
+  width: 366px;
+  height: 405px;
+  background: #ffffff;
+  box-shadow: 0px 3px 6px #aeddf8;
+  opacity: 1;
+  border-radius: 30px;
+}
+.services .services-main .services-content .services-item img {
+  width: 125px;
+  height: 125px;
+}
+.services .services-main .services-content .services-item h4 {
+  width: 80px;
+  height: 28px;
+  margin: 37px 0 20px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #333333;
+}
+.services .services-main .services-content .services-item p {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #666666;
+}
+.characteristic {
+  width: 100%;
+  height: 1450px;
+}
+.characteristic .characteristic-main {
+  height: 100%;
+  box-sizing: border-box;
+  padding-top: 30px;
+}
+.characteristic .characteristic-main .characteristic-title {
+  width: 100%;
+  margin-top: 70px;
+  text-align: center;
+}
+.characteristic .characteristic-main .characteristic-title h3 {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+.characteristic .characteristic-main .characteristic-title span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #666666;
+  letter-spacing: 2px;
+}
+.characteristic .characteristic-main .characteristic-content {
+  padding: 0 174px;
+}
+.characteristic .characteristic-main .characteristic-content .characteristic-item {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+.characteristic .characteristic-main .characteristic-content .characteristic-item .characteristic-img {
+  width: 337px;
+  height: 323px;
+  background: url(../images/Saas-characteristic1.png) no-repeat;
+}
+.characteristic .characteristic-main .characteristic-content .characteristic-item .characteristic-list {
+  width: 337px;
+  padding-top: 27px;
+}
+.characteristic .characteristic-main .characteristic-content .characteristic-item .characteristic-list p {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 21px;
+  color: #0296b4;
+  opacity: 0.53;
+  letter-spacing: 2px;
+}
+.characteristic .characteristic-main .characteristic-content .characteristic-item .characteristic-list h4 {
+  margin: 10px 0 24px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #333333;
+}
+.characteristic .characteristic-main .characteristic-content .characteristic-item .characteristic-list ul li {
+  list-style-type: disc;
+  margin-top: 10px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #0165DE;
+  font-size: 20px;
+}
+.characteristic .characteristic-main .characteristic-content .characteristic-item .characteristic-list ul li span {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #666666;
+}
+.characteristic .characteristic-main .characteristic-content .characteristic-item .characteristic-list ul li:nth-child(2) {
+  color: #03B4D6;
+}
+.characteristic .characteristic-main .characteristic-content .characteristic-item .characteristic-list ul li:nth-child(3) {
+  color: #EBC800;
+}
+.characteristic .characteristic-main .characteristic-content .characteristic-item:nth-child(2) .characteristic-img {
+  width: 364px;
+  background-image: url(../images/Saas-characteristic2.png);
+}
+.characteristic .characteristic-main .characteristic-content .characteristic-item:nth-child(3) .characteristic-img {
+  background-image: url(../images/Saas-characteristic3.png);
+}
+.apply {
+  width: 100%;
+  height: 680px;
+}
+.apply .apply-main {
+  height: 100%;
+  box-sizing: border-box;
+  padding-top: 30px;
+}
+.apply .apply-main .apply-title {
+  width: 100%;
+  margin-top: 70px;
+  text-align: center;
+}
+.apply .apply-main .apply-title h3 {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+.apply .apply-main .apply-title span {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #666666;
+  letter-spacing: 2px;
+}
+.apply .apply-main .apply-background {
+  position: relative;
+  margin-top: 190px;
+  width: 1200px;
+  height: 340px;
+  background: url(../images/Saas-servers4.jpg) no-repeat;
+}
+.apply .apply-main .apply-background .apply-content {
+  position: absolute;
+  top: -90px;
+  left: 15px;
+  width: 1170px;
+  height: 371px;
+  display: flex;
+  justify-content: space-between;
+}
+.apply .apply-main .apply-background .apply-content .apply-img {
+  width: 370px;
+  height: 350px;
+  background: url(../images/Saas-apply1.png) center top no-repeat;
+  background-position: -8px 2px;
+  position: relative;
+}
+.apply .apply-main .apply-background .apply-content .apply-img .img-info {
+  position: absolute;
+  width: 335px;
+  left: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #000000 100%);
+  padding: 0 15px 25px;
+}
+.apply .apply-main .apply-background .apply-content .apply-img .img-info h4 {
+  padding-bottom: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #ffffff;
+}
+.apply .apply-main .apply-background .apply-content .apply-img .img-info p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #ffffff;
+}
+.apply .apply-main .apply-background .apply-content .apply-img:nth-child(2) {
+  background-image: url(../images/Saas-apply2.png);
+}
+.apply .apply-main .apply-background .apply-content .apply-img:nth-child(3) {
+  background-image: url(../images/Saas-apply3.png);
+}
+.case {
+  width: 100%;
+  height: 808px;
+}
+.case .case-main {
+  height: 100%;
+  box-sizing: border-box;
+  padding-top: 130px;
+}
+.case .case-main .case-title {
+  width: 100%;
+  margin-top: 70px;
+  text-align: center;
+}
+.case .case-main .case-title h3 {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+.case .case-main .case-title span {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #666666;
+  letter-spacing: 2px;
+}
+.case .case-main .case-content {
+  margin-top: 120px;
+}
+.case .case-main .case-content .explain {
+  width: 275px;
+  float: left;
+}
+.case .case-main .case-content .explain p {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 21px;
+  color: #0296b4;
+  opacity: 0.53;
+  letter-spacing: 2px;
+}
+.case .case-main .case-content .explain h4 {
+  margin: 10px 0 24px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #333333;
+}
+.case .case-main .case-content .explain ul li {
+  margin-top: 10px;
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 14px;
+  color: #666666;
+}
+.case .case-main .case-content .legend {
+  margin-left: 300px;
+  display: flex;
+  justify-content: space-around;
+}
+.case .case-main .case-content .legend .legend-img {
+  box-sizing: border-box;
+  width: 228px;
+  height: 297px;
+  background: #ffffff;
+  box-shadow: 0px 3px 6px #aeddf8;
+  opacity: 1;
+  border-radius: 10px;
+  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.case .case-main .case-content .legend .legend-img .profile {
+  width: 66px;
+  height: 66px;
+  background: url(../images/profile1.png) no-repeat;
+}
+.case .case-main .case-content .legend .legend-img h4 {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 21px;
+  color: #333333;
+  margin: 15px 0 10px;
+}
+.case .case-main .case-content .legend .legend-img p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17px;
+  color: #999999;
+}
+.case .case-main .case-content .legend .legend-img:nth-child(2) {
+  width: 274px;
+  height: 357px;
+  background: #ffffff;
+  box-shadow: 0px 3px 6px #aeddf8;
+  border-radius: 10px;
+}
+.case .case-main .case-content .legend .legend-img:nth-child(2) h4 {
+  margin: 20px 0 15px;
+}
+.case .case-main .case-content .legend .legend-img:nth-child(3) .profile {
+  background-image: url(../images/profile2.png);
+}
+.footer {
+  width: 100%;
+  height: 429px;
+  background-color: #353235;
+}
+.footer .footer-main {
+  height: 100%;
+  box-sizing: border-box;
+  padding: 142px 120px 0;
+}
+.footer .footer-main ul {
+  float: left;
+  font-size: 14px;
+  margin-left: 30px;
+}
+.footer .footer-main ul li {
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 29px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.footer .footer-main ul li:hover {
+  color: #fff;
+}
+.footer .footer-main ul:nth-child(2) {
+  margin-left: 50px;
+}
+.footer .footer-main .code {
+  float: right;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -30px;
+}
+.footer .footer-main .code img {
+  margin: 12px 0;
+}
+.footer .footer-main .code p,
+.footer .footer-main .code span {
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 29px;
+  color: #ffffff;
+}
