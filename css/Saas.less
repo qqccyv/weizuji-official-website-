@@ -1,16 +1,14 @@
 // 拼接背景图
 body {
-  // height: 5309px;
-  // background-color: #01ABCB;
   min-width: 1200px;
-  background-image: url(../images/Saas-top.jpg),
+  background-image: url(../images/Saas-top.jpg), // 用逗号将多段背景图隔开设置
               url(../images/Saas-second.png),
               url(../images/Saas-middle.jpg),
               url(../images/Saas-fourth.png),
               url(../images/Saas-bottom.jpg);
-  background-repeat: no-repeat,no-repeat,no-repeat,no-repeat,no-repeat;
-  background-position: 0 0,0 919px,0 1328px,0 3858px,0 4493px;
-  background-size: 100% 919px,100% 409px,100% 2530px,100% 635px,100% 355px;
+  background-repeat: no-repeat,no-repeat,no-repeat,no-repeat,no-repeat; // 设置不重复拼接
+  background-position: 0 0,0 919px,0 1328px,0 3858px,0 4493px;  // 设置背景图在body中的位置 顺序为背景图片引入的顺序
+  background-size: 100% 919px,100% 409px,100% 2530px,100% 635px,100% 355px;  // 设置背景图片的大小
 }
 
 //头部导航栏
