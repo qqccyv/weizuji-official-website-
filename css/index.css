@@ -36,13 +36,16 @@
   border-bottom: 2px solid #314456;
 }
 .header p {
-  margin-left: 120px;
+  font-size: 16px;
+  margin-left: 100px;
 }
 .banner {
   width: 100%;
   height: 528px;
   min-width: 1200px;
-  background: url(../images/banner.png) no-repeat center;
+  background: url(../images/banner-test2.png) no-repeat center;
+  background-size: cover;
+  background-color: rgba(0, 0, 1, 0.5);
   overflow: hidden;
 }
 .banner .slogan {
@@ -82,6 +85,7 @@
   margin: 15px 0 16px;
 }
 .nav ul li .desc {
+  color: #666666;
   font-size: 14px;
 }
 .profile {
@@ -98,6 +102,7 @@
 .profile .profile-main .profile-title {
   text-align: center;
   padding-top: 45px;
+  color: #000;
 }
 .profile .profile-main .profile-title p span:first-child {
   margin-right: 10px;
@@ -118,14 +123,16 @@
 }
 .profile .profile-main .profile-content .content {
   margin-left: 476px;
+  padding-top: 10px;
 }
 .profile .profile-main .profile-content .content h4 {
-  padding-bottom: 13px;
+  font-weight: normal;
+  padding-bottom: 20px;
 }
 .profile .profile-main .profile-content .content p {
   font-size: 14px;
   line-height: 20px;
-  font-size: #666666;
+  color: #666666;
 }
 .profile .profile-main .profile-content .content .detail {
   margin-top: 28px;
@@ -158,6 +165,7 @@
 .culture .culture-main .culture-title {
   text-align: center;
   padding-top: 43px;
+  color: #000;
 }
 .culture .culture-main .culture-title p span:first-child {
   margin-right: 10px;
@@ -186,6 +194,8 @@
   background-color: #FFB100;
   color: #fff;
   transition: all 0.5s;
+  display: flex;
+  flex-direction: column;
 }
 .culture .culture-main .culture-content .place .desc .title {
   box-sizing: border-box;
@@ -239,6 +249,7 @@
 .services .services-main .services-title {
   text-align: center;
   padding-top: 41px;
+  color: #000;
 }
 .services .services-main .services-title p span:first-child {
   margin-right: 10px;
@@ -254,13 +265,16 @@
 }
 .services .services-main .services-content .item {
   margin-top: 40px;
-  width: 253px;
-  height: 298px;
+  width: 255px;
+  height: 310px;
+  box-sizing: border-box;
   border: 1px solid #D9D9D9;
   cursor: pointer;
 }
 .services .services-main .services-content .item img {
   display: block;
+  width: 253px;
+  height: 186px;
 }
 .services .services-main .services-content .item .title {
   font-size: 16px;
@@ -271,7 +285,7 @@
   border-top: 1px solid #E3E3E3;
   font-size: 14px;
   color: #999999;
-  padding: 15px 0 0 14px;
+  padding: 15px 10px 0 14px;
 }
 .news {
   width: 100%;
@@ -285,6 +299,7 @@
 .news .news-main .news-title {
   text-align: center;
   padding-top: 41px;
+  color: #000;
 }
 .news .news-main .news-title p span:first-child {
   margin-right: 10px;
@@ -300,6 +315,7 @@
 }
 .news .news-main .news-content .item {
   box-sizing: border-box;
+  position: relative;
   margin-top: 45px;
   width: 253px;
   height: 345px;
@@ -311,6 +327,7 @@
 .news .news-main .news-content .item .title {
   font-size: 16px;
   color: #000000;
+  height: 40px;
 }
 .news .news-main .news-content .item .content {
   font-size: 16px;
@@ -318,6 +335,8 @@
   padding: 15px 0 29px;
 }
 .news .news-main .news-content .item .times {
+  position: absolute;
+  bottom: 15px;
   font-size: 16px;
   color: #707070;
 }
@@ -333,6 +352,7 @@
 .partners .partners-main .partners-title {
   text-align: center;
   padding-top: 41px;
+  color: #000;
 }
 .partners .partners-main .partners-title p span:first-child {
   margin-right: 10px;
@@ -344,12 +364,11 @@
 }
 .partners .partners-main .partners-content {
   margin-top: 68px;
-  padding: 0 22px;
   display: flex;
   justify-content: space-between;
 }
 .partners .partners-main .partners-content .place {
-  width: 279px;
+  width: 235px;
   height: 241px;
   position: relative;
 }
@@ -358,21 +377,23 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  width: 279px;
+  width: 235px;
   height: 241px;
   box-shadow: 0px 3px 6px rgba(83, 83, 83, 0.16);
   background-color: #fff;
   transition: all 0.2s;
   cursor: pointer;
 }
+.partners .partners-main .partners-content .place .item img {
+  width: 130px;
+  height: 90px;
+}
 .partners .partners-main .partners-content .place .item:hover {
   position: absolute;
+  z-index: 2;
   width: 299px;
-  height: 261px;
-  margin: -10px 0 0 -10px;
-}
-.partners .partners-main .partners-content .place:nth-child(3) p {
-  padding-top: 28px;
+  height: 281px;
+  margin: -20px 0 0 -32px;
 }
 .contact {
   width: 100%;
@@ -386,6 +407,7 @@
 .contact .contact-main .contact-title {
   text-align: center;
   padding-top: 41px;
+  color: #000;
 }
 .contact .contact-main .contact-title p span:first-child {
   margin-right: 10px;
@@ -397,9 +419,17 @@
 }
 .contact .contact-main .contact-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
   flex-wrap: wrap;
   padding: 48px 219px 0;
+  text-align: center;
+}
+.contact .contact-main .contact-content h2 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #000000;
 }
 .contact .contact-main .contact-content .contactWay {
   width: 336px;
@@ -428,11 +458,11 @@
 .footer .footer-main {
   height: 100%;
   box-sizing: border-box;
-  padding: 48px 219px 0;
+  padding: 48px 80px 0 219px;
 }
 .footer .footer-main dl {
   float: left;
-  font-size: 14px;
+  font-size: 13px;
 }
 .footer .footer-main dl dt {
   color: #fff;
@@ -440,18 +470,21 @@
 }
 .footer .footer-main dl dd {
   color: #707070;
-  line-height: 20px;
-  margin-top: 19px;
+  line-height: 18px;
+  margin-top: 15px;
   cursor: pointer;
 }
 .footer .footer-main dl dd:hover {
   color: #fff;
 }
 .footer .footer-main dl:nth-child(2) {
-  margin-left: 97px;
+  margin-left: 80px;
 }
 .footer .footer-main dl:nth-child(3) {
-  margin-left: 78px;
+  margin-left: 80px;
+}
+.footer .footer-main dl:nth-child(4) {
+  margin-left: 80px;
 }
 .footer .footer-main .code {
   float: right;
@@ -464,7 +497,9 @@
   font-size: 16px;
 }
 .footer .footer-main .code img {
-  margin: 9px 0;
+  margin: 9px 15px;
+  width: 100px;
+  height: 100px;
 }
 .footer .footer-main .code span {
   font-size: 14px;

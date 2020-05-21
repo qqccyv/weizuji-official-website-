@@ -46,7 +46,7 @@ body {
   color: orange;
 }
 .header p {
-  margin-left: 120px;
+  margin-left: 100px;
 }
 .banner {
   width: 100%;
@@ -550,6 +550,8 @@ body {
 }
 .footer .footer-main .code img {
   margin: 12px 0;
+  width: 100px;
+  height: 100px;
 }
 .footer .footer-main .code p,
 .footer .footer-main .code span {

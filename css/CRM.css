@@ -7,6 +7,21 @@
   display: flex;
   justify-content: space-between;
 }
+.header .header-main .logo {
+  height: 87px;
+}
+.header .header-main .logo h1 {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: normal;
+}
+.header .header-main .logo img {
+  margin-top: -16px;
+  vertical-align: middle;
+}
+.header .header-main p {
+  font-size: 16px;
+}
 .banner {
   width: 100%;
   height: 555px;
@@ -83,7 +98,7 @@
   justify-content: space-around;
 }
 .resolve .resolve-main .resolve-content .resolve-item {
-  width: 350px;
+  width: 360px;
   height: 118px;
   margin-top: 150px;
   display: flex;
@@ -97,7 +112,7 @@
   background-size: 100% 100%;
 }
 .resolve .resolve-main .resolve-content .resolve-item .resolve-desc {
-  width: 270px;
+  width: 280px;
   height: 100%;
 }
 .resolve .resolve-main .resolve-content .resolve-item .resolve-desc h4 {
@@ -411,11 +426,11 @@
 .footer .footer-main {
   height: 100%;
   box-sizing: border-box;
-  padding: 48px 250px 0;
+  padding: 48px 80px 0 180px;
 }
 .footer .footer-main dl {
   float: left;
-  font-size: 14px;
+  font-size: 13px;
 }
 .footer .footer-main dl dt {
   color: #fff;
@@ -423,18 +438,21 @@
 }
 .footer .footer-main dl dd {
   color: #707070;
-  line-height: 20px;
-  margin-top: 19px;
+  line-height: 18px;
+  margin-top: 15px;
   cursor: pointer;
 }
 .footer .footer-main dl dd:hover {
   color: #fff;
 }
 .footer .footer-main dl:nth-child(2) {
-  margin-left: 97px;
+  margin-left: 80px;
 }
 .footer .footer-main dl:nth-child(3) {
-  margin-left: 78px;
+  margin-left: 80px;
+}
+.footer .footer-main dl:nth-child(4) {
+  margin-left: 80px;
 }
 .footer .footer-main .code {
   float: right;
@@ -451,4 +469,6 @@
 }
 .footer .footer-main .code img {
   margin: 9px 0;
+  width: 100px;
+  height: 100px;
 }
