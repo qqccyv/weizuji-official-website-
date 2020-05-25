@@ -6,6 +6,7 @@
 .header .header-main {
   display: flex;
   justify-content: space-between;
+  flex-wrap: nowrap;
 }
 .header .header-main .logo {
   height: 87px;
@@ -427,35 +428,33 @@
   height: 100%;
   box-sizing: border-box;
   padding: 48px 80px 0 180px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
-.footer .footer-main dl {
-  float: left;
+.footer .footer-main .company-info {
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+.footer .footer-main .company-info dl {
   font-size: 13px;
 }
-.footer .footer-main dl dt {
+.footer .footer-main .company-info dl dt {
   color: #fff;
   line-height: 20px;
 }
-.footer .footer-main dl dd {
+.footer .footer-main .company-info dl dd {
   color: #707070;
   line-height: 18px;
   margin-top: 15px;
   cursor: pointer;
 }
-.footer .footer-main dl dd:hover {
+.footer .footer-main .company-info dl dd:hover {
   color: #fff;
 }
-.footer .footer-main dl:nth-child(2) {
-  margin-left: 80px;
-}
-.footer .footer-main dl:nth-child(3) {
-  margin-left: 80px;
-}
-.footer .footer-main dl:nth-child(4) {
-  margin-left: 80px;
-}
 .footer .footer-main .code {
-  float: right;
   color: #fff;
   display: flex;
   flex-direction: column;

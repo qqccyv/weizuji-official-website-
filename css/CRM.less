@@ -6,6 +6,7 @@
   .header-main {
     display: flex;
     justify-content: space-between;
+    flex-wrap: nowrap;
     .logo {
       height: 87px;
       h1 {
@@ -474,35 +475,34 @@
     height: 100%;
     box-sizing: border-box;
     padding: 48px 80px 0 180px;
-    dl {
-      float: left;
-      font-size: 13px;
-      dt {
-        color: #fff;
-        line-height: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    .company-info {
+      width: 700px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: nowrap;
+      dl {
+        font-size: 13px;
+        dt {
+          color: #fff;
+          line-height: 20px;
+        }
+        dd {
+          color: #707070;
+          line-height: 18px;
+          margin-top: 15px;
+          cursor: pointer;
+        }
+        dd:hover {
+          color: #fff;
+        }
       }
-      dd {
-        color: #707070;
-        line-height: 18px;
-        margin-top: 15px;
-        cursor: pointer;
-      }
-      dd:hover {
-        color: #fff;
-      }
     }
-    dl:nth-child(2) {
-      margin-left: 80px;
-    }
-    dl:nth-child(3) {
-      margin-left: 80px;
-    }
-    dl:nth-child(4) {
-      margin-left: 80px;
-    }
+
     .code {
       // text-align: center;
-      float: right;
       color: #fff;
       display: flex;
       flex-direction: column;

@@ -2,6 +2,7 @@
   height: 87px;
   line-height: 87px;
   display: flex;
+  justify-content: space-between;
   flex-wrap: nowrap;
 }
 .header .logo {
@@ -19,8 +20,10 @@
 .header .nav-header {
   margin-left: 223px;
 }
+.header .nav-header ul {
+  display: flex;
+}
 .header .nav-header ul li {
-  float: left;
   margin-left: 55px;
   line-height: 88px;
 }
@@ -97,7 +100,7 @@
   height: 100%;
   box-sizing: border-box;
   padding-left: 73px;
-  padding-right: 74px ;
+  padding-right: 74px;
 }
 .profile .profile-main .profile-title {
   text-align: center;
@@ -160,7 +163,7 @@
   height: 100%;
   box-sizing: border-box;
   padding-left: 135px;
-  padding-right: 134px ;
+  padding-right: 134px;
 }
 .culture .culture-main .culture-title {
   text-align: center;
@@ -459,48 +462,46 @@
   height: 100%;
   box-sizing: border-box;
   padding: 48px 80px 0 219px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
 }
-.footer .footer-main dl {
-  float: left;
+.footer .footer-main .company-info {
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+.footer .footer-main .company-info dl {
   font-size: 13px;
 }
-.footer .footer-main dl dt {
+.footer .footer-main .company-info dl dt {
   color: #fff;
   line-height: 20px;
 }
-.footer .footer-main dl dd {
+.footer .footer-main .company-info dl dd {
   color: #707070;
   line-height: 18px;
   margin-top: 15px;
   cursor: pointer;
 }
-.footer .footer-main dl dd:hover {
+.footer .footer-main .company-info dl dd:hover {
   color: #fff;
 }
-.footer .footer-main dl:nth-child(2) {
-  margin-left: 80px;
-}
-.footer .footer-main dl:nth-child(3) {
-  margin-left: 80px;
-}
-.footer .footer-main dl:nth-child(4) {
-  margin-left: 80px;
-}
-.footer .footer-main .code {
-  float: right;
+.footer .code {
   color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.footer .footer-main .code p {
+.footer .code p {
   font-size: 16px;
 }
-.footer .footer-main .code img {
+.footer .code img {
   margin: 9px 15px;
   width: 100px;
   height: 100px;
 }
-.footer .footer-main .code span {
+.footer .code span {
   font-size: 14px;
 }
